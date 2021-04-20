@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a, b;
+    cout << "Please give a number as 1st variable: \n";
+    cin >> a;
+    cout << "Please give a number as 2st variable: \n";
+    cin >> b;
+    a = a + b;
+    b = a - b;
+    a = a - b;
+    cout << "The value of the 1st variable:\n"<< a;
+    cout << "The value of the 2st variable:" <<b;
+}
